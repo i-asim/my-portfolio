@@ -201,21 +201,19 @@ export const personalInfo = {
 // Example education data
 export const educations = [
   {
-    degree: "Bachelor of Web Developering (Honours)",
-    institution: "Tunku Abdul Rahman University of Management and Technology",
-    location: "Kuala Lumpur, Malaysia",
-    startDate: "2021-6-20",
-    endDate: "2023-7-31",
+    degree: "Bachelors in Computer Science & Engineering",
+    institution: "Anna University",
+    location: "Coimbatore, India",
+    startDate: " November 2020",
+    endDate: "April 2024",
     description:
-      "Taken core courses for software development such as Data Structure and Algorithm in Java, Human-Computer Interaction, Graphics Programming, Distributed System and Parallel Computing. Exposed to technologies such as Mobile App Development, Blockchain App Development, Data Science through elective courses.",
+      "Comprehensive study of computer science and engineering principles, including programming, data structures, algorithms, databases, networking, and software development. Emphasis on practical applications through projects and internships.",
     achievements: [
-      "Dean's List",
-      // "Best Graduate Research Award",
-      // "AI Research Scholarship"
+      "Full Stack Certification -Python and MERN Stack",
     ],
-    logo: "/images/institutions/tarumt.png",
-    cgpa: "3.72",
-    institutionUrl: "https://tarc.edu.my/",
+    logo: "/images/institutions/annauni.png",
+    cgpa: "7.78",
+    institutionUrl: "https://www.annauniv.edu/",
     documents: [
       {
         name: "Transcript",
@@ -223,7 +221,7 @@ export const educations = [
       },
     ],
     techStacks: [
-      "Java",
+      "JavaScript",
       "Flutter",
       "C++",
       "TypeScript",
