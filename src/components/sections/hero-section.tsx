@@ -101,7 +101,7 @@ export function HeroSection() {
                 <Sparkles className="h-3.5 w-3.5 text-primary" />
               </div>
               <p className="text-xs font-medium text-primary/80">
-                Available for tech consulting
+                Available for Web Projects
               </p>
             </motion.div>
 
@@ -122,7 +122,7 @@ export function HeroSection() {
                     className="inline-block bg-gradient-to-r from-primary via-indigo-500 to-primary bg-clip-text text-transparent"
                     style={{ backgroundSize: "200% 100%" }}
                   >
-                    Hi, I&apos;m {personalInfo.name}
+                    Hi there, I&apos;m {personalInfo.name}
                   </span>
                 </motion.div>
               </div>
@@ -131,7 +131,7 @@ export function HeroSection() {
               <div className="mt-2 h-[64px] overflow-hidden sm:h-[72px] md:h-[80px] lg:h-[100px]">
                 {isMounted && (
                   <TypeAnimation
-                    sequence={["Web Developer", 2000]}
+                    sequence={["Full Stack Web Developer", 2000]}
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
