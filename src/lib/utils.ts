@@ -64,7 +64,7 @@ export function getPersonalWebsiteName(url: string): string | undefined {
   return urlObj.hostname;
 }
 
-export const getTotalWorkingExperiences = (
+export const _getTotalWorkingExperiences = (
   experiences: {
     startDate: string;
     endDate?: string;

@@ -150,7 +150,7 @@
   .gallery-item {
     min-height: 44px; /* iOS recommended touch target */
   }
-  
+
   .gallery-button {
     min-width: 44px;
     min-height: 44px;
@@ -238,7 +238,10 @@
   @apply border-l-4 border-primary/20 pl-4 italic;
 }
 
-.prose h1, .prose h2, .prose h3, .prose h4 {
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
   @apply font-bold text-foreground scroll-m-20;
 }
 
@@ -254,7 +257,9 @@
   @apply text-xl mt-6 mb-3;
 }
 
-.prose p, .prose ul, .prose ol {
+.prose p,
+.prose ul,
+.prose ol {
   @apply mb-4;
 }
 

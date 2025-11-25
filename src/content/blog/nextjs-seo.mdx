@@ -6,7 +6,7 @@ tags: ["nextjs", "seo", "web development", "personal website", "portfolio"]
 author: "Me"
 ---
 
-## **1. Metadata Configuration in `app/layout.tsx`**  
+## **1. Metadata Configuration in `app/layout.tsx`**
 
 In Next.js 15, the `generateMetadata` function allows you to **dynamically generate SEO metadata** for each page.
 
@@ -57,9 +57,9 @@ export const metadata = {
 
 ---
 
-## **2. Generating a Dynamic Sitemap (`sitemap.ts`)**  
+## **2. Generating a Dynamic Sitemap (`sitemap.ts`)**
 
-A sitemap helps search engines **index your website efficiently**.  
+A sitemap helps search engines **index your website efficiently**.
 
 Create a `sitemap.ts` file inside the `app` directory:
 
@@ -92,7 +92,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
 ---
 
-## **3. Robots.txt for SEO Optimization**  
+## **3. Robots.txt for SEO Optimization**
 
 A `robots.txt` file **controls how search engines crawl your site**. Add `robots.ts` inside the `app` directory:
 
@@ -115,7 +115,7 @@ export default function robots(): MetadataRoute.Robots {
 
 ---
 
-## **4. Adding Structured Data (JSON-LD for Rich Results)**  
+## **4. Adding Structured Data (JSON-LD for Rich Results)**
 
 Google recommends **structured data** to enhance search rankings. Add this inside your `layout.tsx`:
 
@@ -144,15 +144,16 @@ export const metadata = {
 
 ---
 
-## **Final Notes**  
+## **Final Notes**
 
 ✅ **Metadata API** ensures **best SEO practices** with Open Graph, Twitter cards, and JSON-LD.  
 ✅ **Dynamic sitemap** allows **search engines to discover your content**.  
 ✅ **Robots.txt** manages **crawl permissions** for search engines.  
-✅ **JSON-LD structured data** improves **rich snippets and search ranking**.  
+✅ **JSON-LD structured data** improves **rich snippets and search ranking**.
 
 This setup ensures **your Next.js portfolio website is optimized for search engines**. 🚀 Let me know if you need refinements!
 
 ## More on Nextjs SEO
+
 - https://nextjs.org/docs/app/api-reference/file-conventions/metadata
 - https://nextjs.org/docs/app/building-your-application/optimizing/metadata

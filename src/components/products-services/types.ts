@@ -29,4 +29,4 @@ export interface FeatureComparison {
   starter: string;
   professional: string;
   enterprise: string;
-} 
+}

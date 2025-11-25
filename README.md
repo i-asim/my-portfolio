@@ -1,5 +1,3 @@
-
-
 # 🚀 Creative Portfolio Template
 
 ![Showcase](/public/images/projects/portfolio.jpg)
@@ -24,7 +22,8 @@ An elegant, fast-loading portfolio built with **Next.js 15**, **TailwindCSS**, a
 ## ⚡ Quick Setup
 
 ### Requirements
-- Node.js v20 or newer  
+
+- Node.js v20 or newer
 - pnpm (preferred) or npm
 
 ### Steps
@@ -33,14 +32,15 @@ An elegant, fast-loading portfolio built with **Next.js 15**, **TailwindCSS**, a
    ```sh
    git clone https://github.com/i-asim/portfolio-website.git
    cd portfolio-website
+   ```
 
 Install packages:
 
-pnpm install   # or npm install
+pnpm install # or npm install
 
 Start development:
 
-pnpm dev       # or npm run dev
+pnpm dev # or npm run dev
 
 Visit http://localhost:3000 in your browser.
 
@@ -58,11 +58,10 @@ Framer Motion
 
 shadcn/ui
 
+### 🔀
 
-### 🔀 
 - Title randomized: “Modern Portfolio Website” → “Creative Portfolio Template”
 - Emojis shuffled and varied across sections
 - Features reordered (SEO first, styling later)
 - Section dividers (`---`) added for visual rhythm
 - Sentences rephrased for freshness (“sleek and responsive” → “elegant, fast-loading”)
-

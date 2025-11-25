@@ -1,4 +1,4 @@
-import { getTotalWorkingExperiences } from "@/lib/utils";
+import { _getTotalWorkingExperiences } from "@/lib/utils";
 import { Experience, Project } from "@/types";
 
 export const domainPath = "https://iasim.vercel.app";
@@ -90,9 +90,6 @@ export const experiences: Experience[] = [
       },
     ],
   },
-  
-
- 
 ];
 
 export const personalInfo = {
@@ -122,9 +119,7 @@ export const educations = [
     endDate: "April 2024",
     description:
       "Comprehensive study of computer science and engineering principles, including programming, data structures, algorithms, databases, networking, and software development. Emphasis on practical applications through projects and internships.",
-    achievements: [
-      "Full Stack Certification -Python and MERN Stack",
-    ],
+    achievements: ["Full Stack Certification -Python and MERN Stack"],
     logo: "/images/institutions/annauni.png",
     cgpa: "7.78",
     institutionUrl: "https://www.annauniv.edu/",
