@@ -21,7 +21,7 @@ const staggerContainer = {
 const skills = [
   { name: "TypeScript", level: 90 },
   { name: "Next.js (React)", level: 90 },
-  { name: "Gin (Go)", level: 80 },
+  { name: "Express", level: 80 },
   { name: "Flutter", level: 70 },
   { name: "Python", level: 60 },
   { name: "Java", level: 70 },

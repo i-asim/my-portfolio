@@ -5,12 +5,12 @@ export const domainPath = "https://iasim.vercel.app";
 
 export const experiences: Experience[] = [
   {
-    title: "Frontend Engineer",
-    company: "Simpletruss Sdn Bhd",
-    companyUrl: "https://www.simpletruss.com/",
-    location: "Kuala Lumpur, Malaysia",
+    title: "Jr Web Developer",
+    company: "Private IT Firm in India",
+    companyUrl: "",
+    location: "Palakkad, India",
     type: "Full-time",
-    startDate: "2024-6-10",
+    startDate: "2025-12-1",
     endDate: undefined,
     description:
       "Building reusable React component libraries, optimizing frontend performance, and integrating APIs for seamless user experiences.",
@@ -29,13 +29,13 @@ export const experiences: Experience[] = [
       "Jest",
       "Storybook",
     ],
-    logo: "/images/companies/simpletruss.jpeg",
+    logo: "",
     projects: [
       {
         title: "LessenPro - Property Management SaaS",
         description:
           "A comprehensive SaaS platform designed to centralize and automate property management services, integrating scheduling, vendor coordination, and maintenance tracking for efficiency-driven operations.",
-        demo: "https://www.lessenpro.com/",
+        demo: "",
         techStacks: [
           "React",
           "TypeScript",
@@ -47,13 +47,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Frontend Developer",
-    company: "Beyondsoft (Malaysia) Sdn. Bhd.",
-    companyUrl: "https://www.beyondsoft.com/",
-    location: "Kuala Lumpur, Malaysia",
-    type: "Full-time",
-    startDate: "2023-7-31",
-    endDate: "2024-6-7",
+    title: "Software Developer Intern",
+    company: "Private IT Firm in India",
+    companyUrl: "",
+    location: "Palakkad, India",
+    type: "Internship",
+    startDate: "2025-8-4",
+    endDate: "2025-11-30",
     description:
       "Developing and maintaining ReactJS-based web and mobile UIs, optimizing performance, and ensuring cross-browser compatibility. Collaborating with Tencent's team to implement designs, adding features based on user feedback, and upholding coding best practices through code reviews and Git-based version control.",
     responsibilities: [
@@ -78,107 +78,21 @@ export const experiences: Experience[] = [
       "TypeScript",
       "Go",
     ],
-    logo: "/images/companies/beyondsoft.jpeg",
+    logo: "",
     blogSlugs: ["beyondsoft"],
     projects: [
       {
         title: "Databrain Global - Data Analysis Platform",
         description:
           "A platform for analyzing games data for Tencent, MiHoYo, and other game companies.",
-        demo: "https://databrain-global.intlgame.com/",
+        demo: "",
         techStacks: ["React", "Umi.js", "Ant Design", "TypeScript", "Go"],
       },
     ],
   },
-  {
-    title: "Java Web Developer (Internship)",
-    company: "Finexus International Sdn. Bhd.",
-    companyUrl: "https://www.finexusgroup.com/",
-    location: "Kuala Lumpur, Malaysia",
-    type: "Internship",
-    startDate: "2023-2-1",
-    endDate: "2023-7-31",
-    description:
-      "Enhancing Java-based projects with new features, rigorous testing, and optimized deployment. Mastering debugging, web resource searches, and performance improvements for seamless project execution.",
-    responsibilities: [
-      "Revitalized and advanced Java-based projects by integrating innovative features and implementing a thorough testing regimen.",
-      "Proficiently mastered debugging techniques, conducted efficient web resource searches, simplify application deployment processes, ensuring optimal project performance.",
-    ],
-    skills: [
-      "Java",
-      "Firebase",
-      "Oracle SQL",
-      "XML",
-      "Servlets",
-      "JavaServer Pages (JSP)",
-      "Tomcat",
-      "Linux",
-      "Shell Scripting",
-      "Jasper",
-      "TortoiseSVN",
-      "SOAP",
-    ],
-    logo: "/images/companies/finexus.png",
-  },
-  {
-    title: "Web Developer (Intern)",
-    company: "Techtics Blockchain PLT",
-    companyUrl: "https://www.techtics.io/",
-    location: "Kuala Lumpur, Malaysia",
-    type: "Internship",
-    startDate: "2020-10-1",
-    endDate: "2021-1-31",
-    description:
-      "Modernizing frontend with ReactJS for improved maintenance and dynamic capabilities. Developing a blockchain app with ReactJS and Solidity, integrating smart contracts with MetaMask. Exploring Laravel's MVC, ORM, and event-driven architecture. Implementing authentication, real-time exchange rates, dynamic UI updates, and seamless CRUD APIs.",
-    responsibilities: [
-      "Revitalized project's frontend using ReactJS for enhanced maintenance, modernization, and dynamic website capabilities.",
-      "Developed a cutting-edge blockchain app utilizing ReactJS and Solidity to seamlessly integrate smart contracts with MetaMask for secure and streamlined transactions.",
-      "Explored Laravel's router functionality, MVC architecture, ORM, events, listeners, and data seeding techniques for efficient database testing.",
-      "Implemented key functionalities such as authentication, real-time exchange rate fetching, dynamic UI updates, and built APIs for seamless CRUD operations on transactions.",
-    ],
-    skills: [
-      "Laravel PHP",
-      "PhpMyAdmin",
-      "Typescript",
-      "Javascript",
-      "Solidity",
-      "ReactJS",
-      "NodeJS",
-      "ExpressJS",
-      "PuppeteerJS",
-      "Git",
-      "MetaMask",
-    ],
-    logo: "/images/companies/techtics.png",
-  },
-  {
-    title: "Frontend Web Developer",
-    company: "Jonvi Marketing Sdn. Bhd.",
-    location: "Kuala Lumpur, Malaysia",
-    type: "Full-time",
-    startDate: "2019-1-1",
-    endDate: "2019-5-20",
-    description:
-      "Developed two user-friendly web apps with HTML, CSS, JavaScript, PHP, and Bootstrap. Integrated front-end components with API endpoints for authentication and CRUD operations. Automated data tasks using Python and Google Script for efficient data fetching, entry, and Excel file generation.",
-    responsibilities: [
-      "Developed 2 web apps using HTML, CSS, JavaScript, PHP, and Bootstrap, with a focus on user-friendly design.",
-      "Integrated front-end components to interact with API endpoints for authentication and CRUD operations.",
-      "Leveraged Python and Google Script to automate data tasks, including fetching, entry, and Excel file generation.",
-    ],
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Php",
-      "Python",
-      "MySQL",
-      "Git",
-      "NodeJS",
-      "Bootstrap",
-      "Postman API",
-    ],
-    logo: "/images/companies/jonvi.png",
-  },
+  
+
+ 
 ];
 
 export const personalInfo = {
@@ -204,7 +118,7 @@ export const educations = [
     degree: "Bachelors in Computer Science & Engineering",
     institution: "Anna University",
     location: "Coimbatore, India",
-    startDate: " November 2020",
+    startDate: "November 2020",
     endDate: "April 2024",
     description:
       "Comprehensive study of computer science and engineering principles, including programming, data structures, algorithms, databases, networking, and software development. Emphasis on practical applications through projects and internships.",
@@ -232,11 +146,11 @@ export const educations = [
     ],
   },
   {
-    degree: "Diploma in Computer Science",
-    institution: "Tunku Abdul Rahman University of Management and Technology",
-    location: "Kuala Lumpur, Malaysia",
-    startDate: "2019-5-28",
-    endDate: "2021-5-31",
+    degree: "Higher Secondary - Computer Science",
+    institution: "BEM HSS Palakkad",
+    location: "Kerala, India",
+    startDate: "2018-8-05",
+    endDate: "2020-3-28",
     description:
       "Basic Programming Concepts through various languages such as Object-Oriented Programming in Java, C, and Assembly Language. Mathematics courses included Algebra, Calculus, Statistics, Discrete Math.",
     achievements: [
