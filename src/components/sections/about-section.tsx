@@ -56,8 +56,8 @@ export function AboutSection() {
             <h3 className="mb-4 text-2xl font-semibold">My Journey</h3>
             <p className="mb-6 text-muted-foreground">{personalInfo.summary}</p>
             <p className="mb-6 text-muted-foreground">
-              Core Skills: JavaScript, Next.js, React, Node.js, MongoDB,
-              Traditional & Headless CMS (WordPress, Payload), Git, Vercel, and
+              Core Skills: JavaScript, Next.js, React, Node.js, MongoDB, Django REST Framework,
+              Traditional & Headless CMS (WordPress, Payload), Git, Vercel, Supabase and
               more.
             </p>
             <div className="flex gap-2">

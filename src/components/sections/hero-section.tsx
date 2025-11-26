@@ -149,17 +149,16 @@ export function HeroSection() {
               className="relative"
             >
               <p className="mb-10 max-w-xl pr-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-                I create{" "}
+                I craft{" "}
                 <span className="font-medium text-foreground">
-                  elegant, user-focused
+                  elegant, conversion-driven
                 </span>{" "}
-                web experiences with modern technologies. Passionate about
-                turning complex problems into
+                web experiences using modern frameworks and scalable architecture. My passion lies in transforming complex challenges into
                 <span className="font-medium text-foreground">
                   {" "}
-                  simple, intuitive
+                  intuitive, user-first solutions
                 </span>{" "}
-                solutions.
+                that perform beautifully across devices and regions.
               </p>
 
               {/* Static decorative element instead of animated */}
@@ -258,12 +257,12 @@ export function HeroSection() {
               }}
             >
               {/* Card content with simplified animations */}
-              {(() => {
-                const codeContent = {
-                  skills: ["Next.js", "JavaScript", "Headless CMS"],
-                  passion:
-                    "I believe in writing clean, maintainable code and creating intuitive user experiences",
-                };
+{(() => {
+  const codeContent = {
+    skills: ["JavaScript", "MERN Stack", "Next.JS", "Headless CMS", "Python"],
+    mindset: "Clean code, intuitive UX, scalable architecture",
+    mission: "Build web platforms that convert, engage, and adapt",
+  };
 
                 return (
                   <motion.div
@@ -302,15 +301,24 @@ export function HeroSection() {
                         ],
                       </div>
 
-                      <div className="mt-2">
-                        <span className="text-purple-500 dark:text-purple-400">
-                          passion:
-                        </span>{" "}
-                        <span className="text-green-500 dark:text-green-400">
-                          &apos;{codeContent.passion}&apos;
-                        </span>
-                        ,
-                      </div>
+                      <div className="mt-2 space-y-1">
+      <div>
+        <span className="text-purple-500 dark:text-purple-400 font-semibold">
+          mindset:
+        </span>{" "}
+        <span className="text-green-500 dark:text-green-400 italic">
+          &apos;{codeContent.mindset}&apos;
+        </span>
+      </div>
+      <div>
+        <span className="text-purple-500 dark:text-purple-400 font-semibold">
+          mission:
+        </span>{" "}
+        <span className="text-green-500 dark:text-green-400 italic">
+          &apos;{codeContent.mission}&apos;
+        </span>
+      </div>
+    </div>
                     </div>
                     <div className="mt-1">{"}"}</div>
                   </motion.div>

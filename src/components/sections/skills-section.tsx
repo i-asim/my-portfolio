@@ -19,15 +19,15 @@ const staggerContainer = {
 };
 
 const skills = [
-  { name: "TypeScript", level: 90 },
-  { name: "Next.js (React)", level: 90 },
-  { name: "Express", level: 80 },
-  { name: "Flutter", level: 70 },
-  { name: "Python", level: 60 },
-  { name: "Java", level: 70 },
-  { name: "C++", level: 60 },
-  { name: "Linux", level: 60 },
+  { name: "JavaScript", level: 99 },
+  { name: "MERN Stack", level: 95 },
+  { name: "Next.JS", level: 90 },
+  { name: "WordPress", level: 90 },
   { name: "Git", level: 80 },
+  { name: "Python", level: 70 },
+  { name: "Canva", level: 60 },
+  { name: "Vercel", level: 60 },
+  { name: "PostgreSQL", level: 80 },
 ]
   .sort((a, b) => b.level - a.level)
   .slice(0, 5);
@@ -38,6 +38,9 @@ const softSkills = [
   "Time Management",
   "Adaptability",
   "Leadership",
+  "Initiativeness",
+  "Effective Communication",
+  "Innovation",
 ];
 
 export function SkillsSection() {

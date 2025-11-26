@@ -168,7 +168,7 @@ export const educations = [
     documents: [
       {
         name: "Transcript",
-        url: "/pdf/educations/bachelor-transcript.pdf",
+        url: "/pdf/educations/bachelors-transcript.pdf",
       },
     ],
     techStacks: [
@@ -193,7 +193,7 @@ export const educations = [
       // "Innovation Award for Senior Project",
       // "Coding Competition Winner (2017)"
     ],
-    logo: "/images/institutions/bemhss.png",
+    logo: "/images/institutions/bemhss.webp",
     cgpa: "7.4",
     institutionUrl: "https://schools.org.in/palakkad/32060900720/bemhss-palakkad.html#google_vignette",
     documents: [
@@ -206,7 +206,8 @@ export const educations = [
       "HTML",
       "CSS",
       "C Programming",
-      "Java"
+      "Java",
+      "JavaScript"
     ],
   },
 ];
@@ -281,29 +282,29 @@ export const projects: Project[] = [
 
 export const certifications = [
   {
-    name: "CCNA: Introduction to Networks",
-    link: "https://www.credly.com/badges/fa38eb0b-43b0-4a2a-bdc0-da2a334c8738?source=linked_in_profile",
-    issuingOrganization: "CISCO",
-    issueDate: "2021-6-20",
+    name: "CCNA: Networking with Cisco Routers",
+    link: ``,
+    issuingOrganization: "CISCO Incubator Lab",
+    issueDate: "2022-11-2",
   },
   {
-    name: "HTML, CSS, and Javascript for Web Developers",
-    link: `${domainPath}pdf/TDA-html_css_js.pdf`,
-    issuingOrganization: "The Digital Adda",
-    issueDate: "2023-12-11",
+    name: "Full Stack with Python Programming",
+    link: ``,
+    issuingOrganization: "GUVI - Google Partnered",
+    issueDate: "2023-10-25",
   },
   {
-    name: "ReactJS",
-    link: `${domainPath}pdf/TDA-reactjs.pdf`,
-    issuingOrganization: "The Digital Adda",
-    issueDate: "2023-12-12",
+    name: "MongoDB Essentials - A Complete MongoDB Guide",
+    link: ``,
+    issuingOrganization: "Infosys Springboard",
+    issueDate: "2022-11-20",
   },
   {
-    name: "Rust Workshop 2024 - Parallel Programming",
-    link: "https://credsverse.com/credentials/af37b752-6f6d-4f6d-9368-34f56c1242e5",
-    issuingOrganization: "",
-    issueDate: "2024-4-25",
-    pdf: `${domainPath}assets/pdf/rust-workshop-2024-parallel-programming.pdf`,
+    name: "Node.js",
+    link: "",
+    issuingOrganization: "Infosys Springboard",
+    issueDate: "2022-11-16",
+    pdf: ``,
   },
 ];
 
@@ -315,8 +316,8 @@ export const skills = {
     "Express",
     "Node.js",
     "React Native",
-    "Flutter",
+    "Django REST Framework",
   ],
-  databases: ["PostgreSQL", "MySQL"],
-  tools: ["Git", "Docker", "Postman", "Supabase"],
+  databases: ["PostgreSQL", "MySQL", "MongoDB", "MariaDB"],
+  tools: ["Git", "Docker", "GitHub", "BitBucket", "Supabase"],
 };
