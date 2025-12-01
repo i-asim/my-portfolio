@@ -1,159 +1,39 @@
 ---
-title: "Next.js SEO: Setting up meta tags for SEO of my portfolio website"
+title: "What is Next.js?"
 date: "2025-03-09"
-description: "This article covers the best SEO meta tags setup using Next.js 15's Metadata API, along with a sitemap and robots.txt for my portfolio website."
-tags: ["nextjs", "seo", "web development", "personal website", "portfolio"]
-author: "Me"
+description: "A quick introduction to Next.js, the React framework for building modern web applications."
+tags: ["nextjs", "react", "web development", "framework"]
+author: "Asim I"
 ---
 
-## **1. Metadata Configuration in `app/layout.tsx`**
+## 🚀 Introduction
 
-In Next.js 15, the `generateMetadata` function allows you to **dynamically generate SEO metadata** for each page.
-
-```tsx
-export const metadata = {
-  title: "Your Name | Portfolio",
-  description:
-    "Discover the portfolio of [Your Name], a Frontend Engineer specializing in React, Next.js, and modern web technologies.",
-  keywords: [
-    "Frontend Engineer",
-    "React Developer",
-    "Next.js Portfolio",
-    "Web Developer",
-    "JavaScript",
-    "TypeScript",
-  ],
-  authors: [{ name: "Your Name", url: "https://yourwebsite.com" }],
-  creator: "Your Name",
-  openGraph: {
-    title: "Your Name | Portfolio",
-    description:
-      "Explore projects, blog posts, and case studies from [Your Name], a web developer focused on modern technologies.",
-    url: "https://yourwebsite.com",
-    siteName: "Your Name's Portfolio",
-    images: [
-      {
-        url: "https://yourwebsite.com/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Your Name's Portfolio",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Your Name | Portfolio",
-    description:
-      "Explore projects, blog posts, and case studies from [Your Name], a web developer focused on modern technologies.",
-    images: ["https://yourwebsite.com/images/og-image.jpg"],
-    creator: "@yourTwitterHandle",
-  },
-  alternates: {
-    canonical: "https://yourwebsite.com",
-  },
-};
-```
+Next.js is a **React framework** that makes building modern, fast, and SEO-friendly web applications much easier.  
+It adds powerful features on top of React, so developers can focus on creating experiences instead of handling complex setup.
 
 ---
 
-## **2. Generating a Dynamic Sitemap (`sitemap.ts`)**
+## 🔑 Key Features
 
-A sitemap helps search engines **index your website efficiently**.
+- **File-based routing** → Pages are created automatically from your project’s folder structure.  
+- **Rendering options** → Supports **Server-Side Rendering (SSR)** and **Static Site Generation (SSG)**.  
+- **API routes** → Build backend endpoints directly inside your Next.js project.  
+- **Performance optimizations** → Image optimization, code splitting, and automatic bundling.  
+- **Developer experience** → Hot reloading, TypeScript support, and simplified configuration.
 
-Create a `sitemap.ts` file inside the `app` directory:
+---
+
+## 🛠 Example
+
+A simple Next.js page looks like this:
 
 ```tsx
-import { MetadataRoute } from "next";
-
-export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: "https://yourwebsite.com",
-      lastModified: new Date().toISOString(),
-      changeFrequency: "monthly",
-      priority: 1.0,
-    },
-    {
-      url: "https://yourwebsite.com/projects",
-      lastModified: new Date().toISOString(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: "https://yourwebsite.com/blog",
-      lastModified: new Date().toISOString(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-  ];
+// pages/index.js
+export default function Home() {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+      <p>Welcome to my Next.js app.</p>
+    </div>
+  );
 }
-```
-
----
-
-## **3. Robots.txt for SEO Optimization**
-
-A `robots.txt` file **controls how search engines crawl your site**. Add `robots.ts` inside the `app` directory:
-
-```tsx
-import { MetadataRoute } from "next";
-
-export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-        disallow: ["/admin", "/private"],
-      },
-    ],
-    sitemap: "https://yourwebsite.com/sitemap.xml",
-  };
-}
-```
-
----
-
-## **4. Adding Structured Data (JSON-LD for Rich Results)**
-
-Google recommends **structured data** to enhance search rankings. Add this inside your `layout.tsx`:
-
-```tsx
-export const metadata = {
-  other: {
-    "application/ld+json": JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Your Name",
-      url: "https://yourwebsite.com",
-      sameAs: [
-        "https://twitter.com/yourTwitterHandle",
-        "https://github.com/yourGithubHandle",
-        "https://linkedin.com/in/yourLinkedInHandle",
-      ],
-      jobTitle: "Frontend Engineer",
-      worksFor: {
-        "@type": "Organization",
-        name: "Your Company Name",
-      },
-    }),
-  },
-};
-```
-
----
-
-## **Final Notes**
-
-✅ **Metadata API** ensures **best SEO practices** with Open Graph, Twitter cards, and JSON-LD.  
-✅ **Dynamic sitemap** allows **search engines to discover your content**.  
-✅ **Robots.txt** manages **crawl permissions** for search engines.  
-✅ **JSON-LD structured data** improves **rich snippets and search ranking**.
-
-This setup ensures **your Next.js portfolio website is optimized for search engines**. 🚀 Let me know if you need refinements!
-
-## More on Nextjs SEO
-
-- https://nextjs.org/docs/app/api-reference/file-conventions/metadata
-- https://nextjs.org/docs/app/building-your-application/optimizing/metadata
