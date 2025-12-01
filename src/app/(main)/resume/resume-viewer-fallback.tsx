@@ -363,7 +363,7 @@ export default function ResumeViewerWithFallback({
 
           <p className="text-muted-foreground mb-6">
             {deviceType === "mobile"
-              ? "For the best experience on mobile devices, please download the resume to view it in your device's PDF reader."
+              ? "For the best experience on mobile devices, please download the resume to view it in your device's PDF reader if the fullscreen option doesn't work."
               : "Your browser doesn't support viewing PDFs directly. You can download the resume to view it in your preferred PDF reader."}
           </p>
 
