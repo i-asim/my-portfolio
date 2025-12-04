@@ -6,8 +6,8 @@ export const domainPath = "https://iasim.vercel.app";
 export const experiences: Experience[] = [
   {
     title: "Jr Web Developer",
-    company: "Private IT Firm in India",
-    companyUrl: "",
+    company: "MITE Solutions",
+    companyUrl: "www.mitesolutions.com",
     location: "Palakkad, India",
     type: "Full-time",
     startDate: "2025-12-1",
@@ -38,7 +38,7 @@ export const experiences: Experience[] = [
       "Vercel",
       "Hostinger",
     ],
-    logo: "",
+    logo: "/images/mite-logo.png",
     projects: [
       {
         title: "Merchandise E-commerce Platform",
@@ -83,9 +83,9 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    title: "Software Developer Intern",
-    company: "Private IT Firm in India",
-    companyUrl: "",
+    title: "Software Development Intern",
+    company: "MITE Solutions",
+    companyUrl: "www.mitesolutions.com",
     location: "Palakkad, India",
     type: "Internship",
     startDate: "2025-8-4",
@@ -115,7 +115,7 @@ export const experiences: Experience[] = [
       "Vercel",
       "Hostinger",
     ],
-    logo: "",
+    logo: "/images/mite-logo.png",
     blogSlugs: [""],
     projects: [
       {
@@ -136,7 +136,7 @@ export const experiences: Experience[] = [
 
 export const personalInfo = {
   name: "Asim I",
-  title: "Web Developer",
+  title: "Full Stack Developer",
   fullname: "Asim I",
   contact: {
     email: "aasimibr@gmail.com",

@@ -149,7 +149,7 @@ export function HeroSection() {
               className="relative"
             >
               <p className="mb-10 max-w-xl pr-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-                I craft{" "}
+                With hands-on experience in development, I craft{" "}
                 <span className="font-medium text-foreground">
                   elegant, conversion-driven
                 </span>{" "}
