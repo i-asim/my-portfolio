@@ -259,7 +259,7 @@ export function HeroSection() {
               {/* Card content with simplified animations */}
 {(() => {
   const codeContent = {
-    skills: ["JavaScript", "MERN Stack", "Next.JS", "Headless CMS", "Python"],
+    skills: ["JavaScript", "MERN Stack", "Next.JS", "Headless CMS", "PHP"],
     mindset: "Clean code, intuitive UX, scalable architecture",
     mission: "Build web platforms that convert, engage, and adapt",
   };
