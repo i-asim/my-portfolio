@@ -277,6 +277,46 @@ export const projects: Project[] = [
     techStacks: ["Node.js", "MongoDB", "Payload CMS", "Next.js", "Git"],
     date: "2025-11-01",
   },
+  {
+    title: "Company Portfolio Website",
+    description:
+      "Creative corporate portfolio for UAE markets, crafted with WordPress + Elementor for international expansion.",
+    image: "/images/projects/company-website.png",
+    status: "Developing",
+    demo: "https://miteuae.mitetechnology.in/miteuae/",
+    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
+  },
+  {
+    title: "Merchandise E-commerce Platform",
+    description:
+      "Full‑scale print-on-demand e‑commerce platform on WordPress + Elementor + WooCommerce + Lumise, powering secure global retail.",
+    image: "/images/projects/merch-website.png",
+    status: "Developing",
+    demo: "https://ecomm.mitetechnology.in/ecomm/",
+    techStacks: ["WordPress", "Woocommerce", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
+  },
+  {
+    title: "Electrical Trading Portfolio Website",
+    description:
+      "Ellaborate company portfolio built with WordPress + Elementor, delivering dynamic, scalable modules.",
+    image: "/images/projects/electrical-website.png",
+    status: "Developing",
+    demo: "",
+    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
+  },
+  {
+    title: "Real Estate Website with Property Listings",
+    description:
+      "Premium real‑estate showcase built with WordPress + Elementor, featuring elegant property catalogs and lead capture.",
+    image: "/images/projects/realestate-website.png",
+    status: "Developing",
+    demo: "" ,
+    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
+  },
   
 ];
 
