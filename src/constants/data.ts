@@ -1,13 +1,13 @@
 import { _getTotalWorkingExperiences } from "@/lib/utils";
 import { Experience, Project } from "@/types";
 
-export const domainPath = "https://iasim.vercel.app";
+export const domainPath = "https://iasim.me";
 
 export const experiences: Experience[] = [
   {
     title: "Jr Web Developer",
-    company: "MITE Solutions",
-    companyUrl: "https://www.mitesolutions.com/",
+    company: "MITE Technology",
+    companyUrl: "https://www.mitetechnology.com/",
     location: "Palakkad, India",
     type: "Full-time",
     startDate: "2025-12-1",
@@ -84,8 +84,8 @@ export const experiences: Experience[] = [
   },
   {
     title: "Software Development Intern",
-    company: "MITE Solutions",
-    companyUrl: "https://www.mitesolutions.com/",
+    company: "MITE Technology",
+    companyUrl: "https://www.mitetechnology.com/",
     location: "Palakkad, India",
     type: "Internship",
     startDate: "2025-8-4",
