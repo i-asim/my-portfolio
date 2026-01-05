@@ -214,18 +214,24 @@ export const educations = [
 
 export const projects: Project[] = [
   {
-    title: "Flight Tracker & Alerts System",
-    description:"Flight Tracker & Alerts is a full‑stack application designed to help users search flights, set custom alerts, and receive notifications when flight conditions change. It demonstrates API orchestration, database control, and modern frontend/backend integration using production‑ready technologies.",
-    github:"https://github.com/i-asim/flight-tracker",
-    status: "Focusing",
-    techStacks: [
-      "Django REST Framework",
-      "Next.js",
-      "PostgreSQL",
-      "OpenSky Network API",
-      "Vercel",
-    ],
-    date: "2025-12-1",
+    title: "Company Portfolio Website",
+    description:
+      "Creative corporate portfolio for UAE markets, crafted with WordPress + Elementor for international expansion.",
+    image: "/images/projects/company-website.png",
+    status: "Live",
+    demo: "https://mitetechnology.com",
+    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
+  },
+  {
+    title: "Merchandise E-commerce Platform",
+    description:
+      "Full‑scale print-on-demand e‑commerce platform on WordPress + Elementor + WooCommerce + Lumise, powering secure global retail.",
+    image: "/images/projects/merch-website.png",
+    status: "Developing",
+    demo: "https://ecomm.mitetechnology.in/ecomm/",
+    techStacks: ["WordPress", "Woocommerce", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    date: "2025",
   },
   {
     title: "Personal Website",
@@ -278,25 +284,20 @@ export const projects: Project[] = [
     date: "2025-11-01",
   },
   {
-    title: "Company Portfolio Website",
-    description:
-      "Creative corporate portfolio for UAE markets, crafted with WordPress + Elementor for international expansion.",
-    image: "/images/projects/company-website.png",
-    status: "Developing",
-    demo: "https://miteuae.mitetechnology.in/miteuae/",
-    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
-    date: "2025",
+    title: "Flight Tracker & Alerts System",
+    description:"Flight Tracker & Alerts is a full‑stack application designed to help users search flights, set custom alerts, and receive notifications when flight conditions change. It demonstrates API orchestration, database control, and modern frontend/backend integration using production‑ready technologies.",
+    github:"https://github.com/i-asim/flight-tracker",
+    status: "Focusing",
+    techStacks: [
+      "Django REST Framework",
+      "Next.js",
+      "PostgreSQL",
+      "OpenSky Network API",
+      "Vercel",
+    ],
+    date: "2025-12-1",
   },
-  {
-    title: "Merchandise E-commerce Platform",
-    description:
-      "Full‑scale print-on-demand e‑commerce platform on WordPress + Elementor + WooCommerce + Lumise, powering secure global retail.",
-    image: "/images/projects/merch-website.png",
-    status: "Developing",
-    demo: "https://ecomm.mitetechnology.in/ecomm/",
-    techStacks: ["WordPress", "Woocommerce", "PHP", "Elementor", "MySQL","VPS Hosting"],
-    date: "2025",
-  },
+  
   {
     title: "Electrical Trading Portfolio Website",
     description:
