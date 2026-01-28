@@ -220,8 +220,18 @@ export const projects: Project[] = [
     image: "/images/projects/company-website.png",
     status: "Live",
     demo: "https://mitetechnology.com",
+    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","Hostinger"],
+    date: "2025-12-15",
+  },
+  {
+    title: "Digital Signage Website",
+    description:
+      "Digital signage solutions portfolio for UAE markets, built with WordPress + Elementor to showcase dynamic content capabilities.  ",
+    image: "/images/projects/signage-website.webp",
+    status: "Developing",
+    demo: "https://signage.mitetechnology.in/",
     techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
-    date: "2025",
+    date: "2026-1-1",
   },
   {
     title: "Merchandise E-commerce Platform",
@@ -231,7 +241,7 @@ export const projects: Project[] = [
     status: "Developing",
     demo: "https://ecomm.mitetechnology.in/ecomm/",
     techStacks: ["WordPress", "Woocommerce", "PHP", "Elementor", "MySQL","VPS Hosting"],
-    date: "2025",
+    date: "2025-11-10",
   },
   {
     title: "Personal Website",
@@ -287,7 +297,7 @@ export const projects: Project[] = [
     title: "Flight Tracker & Alerts System",
     description:"Flight Tracker & Alerts is a full‑stack application designed to help users search flights, set custom alerts, and receive notifications when flight conditions change. It demonstrates API orchestration, database control, and modern frontend/backend integration using production‑ready technologies.",
     github:"https://github.com/i-asim/flight-tracker",
-    status: "Focusing",
+    status: "Sandboxing",
     techStacks: [
       "Django REST Framework",
       "Next.js",
