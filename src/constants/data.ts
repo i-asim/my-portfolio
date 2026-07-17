@@ -5,7 +5,7 @@ export const domainPath = "https://iasim.me";
 
 export const experiences: Experience[] = [
   {
-    title: "Jr Web Developer",
+    title: "Junior Full Stack Developer",
     company: "MITE Technology",
     companyUrl: "https://www.mitetechnology.com/",
     location: "Palakkad, India",
@@ -13,7 +13,7 @@ export const experiences: Experience[] = [
     startDate: "2025-12-1",
     endDate: undefined,
     description:
-      "Building and contributing to responsive web platforms, dynamic content features, performance optimization, and collaborative development to support IT services, digital marketing solutions, and conversion‑focused client engagement.",
+      "Developed and maintained enterprise web applications featuring dynamic content management, responsive user interfaces, and scalable backend services. Contributed to application performance optimization, cross-browser compatibility, and full-stack feature development using React, Django, and FastAPI. Designed and implemented a company-level load testing platform using k6, Grafana, and Prometheus within a Django application, streamlining performance validation and reporting for internal teams.",
     responsibilities: [
   "Develop and maintain responsive web platforms with dynamic content and listing features.",
   "Optimize applications for performance, scalability, and cross-browser compatibility.",
@@ -26,20 +26,41 @@ export const experiences: Experience[] = [
     skills: [
      "React",
       "Node.js",
-      "WordPress",
+      "Fast API",
       "PHP",
       "MySQL",
-      "Git",
+      "Django",
       "Bitbucket",
       "Payload CMS",
       "JavaScript",
       "TypeScript",
-      "Canva",
+      "k6",
+      "Grafana",
+      "Prometheus",
       "Vercel",
       "Hostinger",
+      "AlmaLinux",
     ],
     logo: "/images/mite-logo.png",
     projects: [
+      {
+        title: "Enterprise Load Testing Platform",
+        description:"Developed a centralized load testing platform using Django, k6, Grafana, and Prometheus to automate performance testing, reporting, and enterprise-scale validation.",
+        demo:"",
+        techStacks:["Django","Python","k6","Grafana","Prometheus","PostgreSQL","JavaScript","AlmaLinux"],
+      },
+      {
+        title:"Lensman Schools",
+        description:"Enterprise school e-commerce management system involving full-stack development using React, Django, and FastAPI with ongoing production maintenance.",
+        demo:"",
+        techStacks:["React","FastAPI","Django","PostgreSQL","JavaScript","TypeScript","Git","Bitbucket"],
+      },
+      {
+        title:"Tickets2Me",
+        description:"Event booking platform with automated deployment workflows on AlmaLinux and a Django-based testing suite.",
+        demo:"",
+        techStacks:["React","Django","Python","PostgreSQL","Git","Bitbucket","AlmaLinux"],
+      },
       {
         title: "Merchandise E-commerce Platform",
         description:
@@ -90,7 +111,7 @@ export const experiences: Experience[] = [
     type: "Internship",
     startDate: "2025-8-4",
     endDate: "2025-11-30",
-    description: "Developing and maintaining modern web platforms with advanced UI features, dynamic catalog and listing systems, and interactive client workflows. Implementing scalable architectures, optimizing performance, and ensuring cross‑browser and cross‑device compatibility. Collaborating with cross‑functional teams to translate designs into production‑ready solutions, integrating user feedback into new features, and upholding coding best practices through documentation, reviews, and Git‑based version control.",
+    description: "Built and maintained responsive web and mobile interfaces while collaborating with senior developers to deliver production-ready applications. Developed reusable UI components, improved responsiveness across devices, implemented dynamic content solutions, and participated in code reviews and Git-based workflows.",
    responsibilities: [
     "Developed and maintained user interfaces for web and mobile applications.",
     "Optimized applications for performance, responsiveness, and cross-browser compatibility.",
@@ -148,9 +169,8 @@ export const personalInfo = {
   },
   profilePicture: "/images/profile-picture.png",
   memoji: "/images/memoji.png",
-  summary: `I am a developer with hands‑on experience delivering modern, scalable web applications and digital solutions. My career emphasizes performance, usability, and modular design tailored to diverse business needs. I collaborate effectively across teams, ensuring smooth workflows and efficient project delivery. I bring a strong focus on UI/UX, building reusable systems that balance technical precision with brand clarity. My work is defined by problem‑solving, adaptability, and delivering client‑centric solutions.`,
-};
-
+  summary: `I am a Full Stack Developer with professional experience building enterprise web applications, internal platforms, and digital solutions using React, Django, FastAPI, and PostgreSQL. My work focuses on developing scalable, maintainable software with an emphasis on performance, usability, and clean architecture.  I enjoy solving complex technical problems, optimizing application performance, and building reusable systems that improve development efficiency. Having worked on production SaaS platforms, school management systems, e-commerce applications, and internal engineering tools, I value writing clean, maintainable code while collaborating effectively across cross-functional teams.`,
+}
 // Example education data
 export const educations = [
   {
@@ -160,7 +180,7 @@ export const educations = [
     startDate: "November 2020",
     endDate: "April 2024",
     description:
-      "Comprehensive study of computer science and engineering principles, including programming, data structures, algorithms, databases, networking, and software development. Emphasis on practical applications through projects and internships.",
+      "Completed a Bachelor of Engineering in Computer Science and Engineering with coursework covering software engineering, data structures, algorithms, operating systems, databases, networking, cloud fundamentals, and full-stack application development. Applied these concepts through research projects, internships, and enterprise software development.",
     achievements: ["Full Stack Certification -Python and MERN Stack"],
     logo: "/images/institutions/annauni.png",
     cgpa: "7.78",
@@ -214,89 +234,192 @@ export const educations = [
 
 export const projects: Project[] = [
   {
+    title: "Enterprise Load Testing Platform",
+    description:
+      "A centralized load testing platform built with Django, k6, Grafana, and Prometheus to automate performance testing, execute configurable load scenarios, generate HTML reports, and visualize application metrics through an intuitive web interface.",
+    image: "/images/projects/load-testing-platform.png",
+    status: "Production",
+    demo: "",
+    techStacks: [
+      "Django",
+      "Python",
+      "k6",
+      "Grafana",
+      "Prometheus",
+      "PostgreSQL",
+      "JavaScript",
+      "AlmaLinux",
+    ],
+    date: "2026-07-01",
+  },
+
+  {
+    title: "Lensman Schools",
+    description:
+      "Enterprise-level school e-commerce management platform involving full-stack development using React, Django, and FastAPI. Contributed to frontend development, backend APIs, performance optimization, maintenance, and production enhancements.",
+    image: "/images/projects/lensman-schools.png",
+    status: "Production",
+    demo: "https://lensmanschools.com/",
+    techStacks: [
+      "React",
+      "FastAPI",
+      "Django",
+      "PostgreSQL",
+      "TypeScript",
+      "JavaScript",
+      "Git",
+      "Bitbucket",
+    ],
+    date: "2026-04-01",
+  },
+
+  {
+    title: "Tickets2Me",
+    description:
+      "Event booking platform with automated deployment workflows on AlmaLinux and a Django-based testing suite for application validation, deployment verification, and quality assurance.",
+    image: "/images/projects/tickets2me.png",
+    status: "Production",
+    demo: "https://tickets2me.com/",
+    techStacks: [
+      "React",
+      "Django",
+      "Python",
+      "PostgreSQL",
+      "Git",
+      "Bitbucket",
+      "AlmaLinux",
+    ],
+    date: "2026-03-01",
+  },
+
+  {
     title: "Company Portfolio Website",
     description:
-      "Creative corporate portfolio for UAE markets, crafted with WordPress + Elementor for international expansion.",
+      "Creative corporate portfolio for UAE markets, crafted with WordPress and Elementor for international expansion.",
     image: "/images/projects/company-website.png",
     status: "Live",
     demo: "https://mitetechnology.com",
-    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","Hostinger"],
+    techStacks: [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "MySQL",
+      "Hostinger",
+    ],
     date: "2025-12-15",
   },
+
   {
     title: "Digital Signage Website",
     description:
-      "Digital signage solutions portfolio for UAE markets, built with WordPress + Elementor to showcase dynamic content capabilities.  ",
+      "Digital signage solutions portfolio for UAE markets, built with WordPress and Elementor to showcase dynamic content capabilities.",
     image: "/images/projects/signage-website.webp",
     status: "Developing",
     demo: "https://signage.mitetechnology.in/",
-    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
-    date: "2026-1-1",
+    techStacks: [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "MySQL",
+      "VPS Hosting",
+    ],
+    date: "2026-01-01",
   },
+
   {
     title: "Merchandise E-commerce Platform",
     description:
-      "Full‑scale print-on-demand e‑commerce platform on WordPress + Elementor + WooCommerce + Lumise, powering secure global retail.",
+      "Full-scale print-on-demand e-commerce platform built with WordPress, WooCommerce, Elementor, and Lumise, supporting secure global retail operations.",
     image: "/images/projects/merch-website.png",
     status: "Developing",
     demo: "https://ecomm.mitetechnology.in/ecomm/",
-    techStacks: ["WordPress", "Woocommerce", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    techStacks: [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "Elementor",
+      "MySQL",
+      "VPS Hosting",
+    ],
     date: "2025-11-10",
   },
+
   {
     title: "Personal Website",
     description:
-      "A personal website portfolio built with Next.js, TailwindCSS, and Vercel",
+      "Personal portfolio built with Next.js, React, Tailwind CSS, and Vercel featuring project showcases, experience, and blog integration.",
     image: "/images/projects/portfolio.jpg",
     github: "https://github.com/i-asim/my-portfolio",
     demo: "https://iasim.vercel.app/",
     status: "Maintaining",
-    techStacks: ["Next.js", "TailwindCSS", "Shadcn", "React"],
+    techStacks: [
+      "Next.js",
+      "React",
+      "TailwindCSS",
+      "Shadcn",
+    ],
     date: "2025-11-23",
     blogSlugs: ["personal-website"],
   },
+
   {
     title: "Knowledge Hub - Learning Workspace",
     description:
-      "Full-stack knowledge workspace built with Next.js, Node.js and Supabase. Modular workspaces, secure access, and real-time collaboration.",
+      "Full-stack knowledge management workspace built with Next.js, Node.js, and Supabase featuring modular workspaces, secure authentication, and real-time collaboration.",
     image: "/images/projects/KnowledgeHub-screenshot.jpg",
     github: "https://github.com/i-asim/knowledge-hub",
-    status: "Developed, improving",
+    status: "Developed, Improving",
     techStacks: [
       "Next.js",
       "TailwindCSS",
       "Supabase",
       "Node.js",
       "Vite",
-      "Vercel",
       "TypeScript",
+      "Vercel",
     ],
     date: "2025-11-10",
   },
+
   {
     title: "Weather Application Platform",
     description:
-      "Weather data platform built with Next.js, TailwindCSS, and OpenWeatherAPI — modular UI, API integration, and real-time data rendering.",
+      "Weather application built with JavaScript and OpenWeather API featuring modular architecture, live weather updates, and responsive UI.",
     image: "/images/projects/weatherapp-screenshot.jpg",
     github: "https://github.com/i-asim/weather-platform",
     status: "Completed",
-    techStacks: ["JavaScript", "HTML", "CSS", "OpenWeatherAPI"],
+    techStacks: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "OpenWeatherAPI",
+    ],
     date: "2025-10-20",
   },
+
   {
     title: "Payload CMS Project",
-    description: "Learning Payload CMS — testing collections, access control, and deployment workflows.",
+    description:
+      "Learning project exploring Payload CMS collections, access control, content management workflows, and deployment strategies.",
     image: "/images/projects/payload-screenshot.jpg",
-    github:
-      "https://github.com/i-asim/payload-learning",
+    github: "https://github.com/i-asim/payload-learning",
     status: "Sandboxing",
-    techStacks: ["Node.js", "MongoDB", "Payload CMS", "Next.js", "Git"],
+    techStacks: [
+      "Node.js",
+      "MongoDB",
+      "Payload CMS",
+      "Next.js",
+      "Git",
+    ],
     date: "2025-11-01",
   },
+
   {
     title: "Flight Tracker & Alerts System",
-    description:"Flight Tracker & Alerts is a full‑stack application designed to help users search flights, set custom alerts, and receive notifications when flight conditions change. It demonstrates API orchestration, database control, and modern frontend/backend integration using production‑ready technologies.",
-    github:"https://github.com/i-asim/flight-tracker",
+    description:
+      "Full-stack flight tracking application enabling users to search flights, configure alerts, and receive notifications using modern frontend, backend, and API integrations.",
+    image: "/images/projects/flighttracker.png",
+    github: "https://github.com/i-asim/flight-tracker",
     status: "Sandboxing",
     techStacks: [
       "Django REST Framework",
@@ -305,48 +428,60 @@ export const projects: Project[] = [
       "OpenSky Network API",
       "Vercel",
     ],
-    date: "2025-12-1",
+    date: "2025-12-01",
   },
-  
+
   {
     title: "Electrical Trading Portfolio Website",
     description:
-      "Ellaborate company portfolio built with WordPress + Elementor, delivering dynamic, scalable modules.",
+      "Corporate portfolio website developed using WordPress and Elementor featuring dynamic content modules and responsive layouts.",
     image: "/images/projects/electrical-website.png",
     status: "Developing",
     demo: "",
-    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    techStacks: [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "MySQL",
+      "VPS Hosting",
+    ],
     date: "2025",
   },
+
   {
     title: "Real Estate Website with Property Listings",
     description:
-      "Premium real‑estate showcase built with WordPress + Elementor, featuring elegant property catalogs and lead capture.",
+      "Real estate showcase platform with property listings, elegant search capabilities, and lead-generation features built using WordPress and Elementor.",
     image: "/images/projects/realestate-website.png",
     status: "Developing",
-    demo: "" ,
-    techStacks: ["WordPress", "PHP", "Elementor", "MySQL","VPS Hosting"],
+    demo: "",
+    techStacks: [
+      "WordPress",
+      "PHP",
+      "Elementor",
+      "MySQL",
+      "VPS Hosting",
+    ],
     date: "2025",
   },
-  
 ];
 
 export const certifications = [
   {
     name: "CCNA: Networking with Cisco Routers",
-    link: ``,
-    issuingOrganization: "CISCO Incubator Lab",
-    issueDate: "2022-11-2",
+    link: "",
+    issuingOrganization: "Cisco Incubator Lab",
+    issueDate: "2022-11-02",
   },
   {
     name: "Full Stack with Python Programming",
-    link: ``,
+    link: "",
     issuingOrganization: "GUVI - Google Partnered",
     issueDate: "2023-10-25",
   },
   {
     name: "MongoDB Essentials - A Complete MongoDB Guide",
-    link: ``,
+    link: "",
     issuingOrganization: "Infosys Springboard",
     issueDate: "2022-11-20",
   },
@@ -355,20 +490,41 @@ export const certifications = [
     link: "",
     issuingOrganization: "Infosys Springboard",
     issueDate: "2022-11-16",
-    pdf: ``,
   },
 ];
 
 export const skills = {
-  languages: ["TypeScript", "JavaScript", "Python", "PHP"],
-  frameworks: [
-    "Next.js",
-    "React",
-    "Express",
-    "Node.js",
-    "React Native",
-    "Django REST Framework",
+  languages: [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "PHP",
   ],
-  databases: ["PostgreSQL", "MySQL", "MongoDB", "MariaDB"],
-  tools: ["Git", "Docker", "GitHub", "BitBucket", "Supabase"],
+
+  frameworks: [
+    "React",
+    "Next.js",
+    "FastAPI",
+    "Django",
+    "Node.js",
+    "WordPress",
+    "Payload CMS",
+  ],
+
+  databases: [
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+  ],
+
+  tools: [
+    "Git",
+    "Bitbucket",
+    "k6",
+    "Grafana",
+    "Prometheus",
+    "Vercel",
+    "Hostinger",
+    "AlmaLinux",
+  ],
 };
